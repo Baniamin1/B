@@ -1,13 +1,3 @@
-B.Online Teacher/
-│
-├── index.html
-├── about.html
-├── contact.html
-├── styles.css
-└── images/
-    └── hero-background.jpg
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +17,31 @@ B.Online Teacher/
             </ul>
         </nav>
     </header>
+       <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Our Contact Information</h3>
+                <p><strong>Founder:</strong> H M Bani Amin</p>
+                <p><strong>Phone:</strong> <a href="tel:+8801798168714">01798-168714</a></p>
+                <p><strong>Email:</strong> <a href="mailto:mdbaniamin1020@gmail.com">mdbaniamin1020@gmail.com</a></p>
+                <p><strong>YouTube:</strong> <a href="https://youtube.com/@hmbaniamin?si=-St3-JQlKQLxjDlL"target="_blank">B.Online Teacher</a></p>
+            </div>
+        </section>
+    </main>
+
 
     <main>
         <!-- Hero Section -->
@@ -80,15 +95,6 @@ B.Online Teacher/
 </head>
 <body>
     <header>
-        <h1>B.Online Teacher</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
     <main>
         <section class="about">
